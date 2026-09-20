@@ -14,7 +14,7 @@ export default defineConfig({
       overlay: false,
     },
   },
-  base: '/the-chatstack/',
+  base: "/",
   plugins: [react(), tailwindcss(), hercules()],
   resolve: {
     alias: {
